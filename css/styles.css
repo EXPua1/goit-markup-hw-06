@@ -16,10 +16,9 @@ a {
   text-decoration: none;
 }
 
+/* Nav */
 .nav_list__items :hover {
   color: #404bbf;
-}
-.nav_list__items :active {
 }
 
 .contacts :hover,
@@ -41,7 +40,38 @@ a {
 .nav_list__items_link__list {
   color: #2e2f42;
 }
-
-.contacts_menu {
+.nav_list__items_link__list:focus {
+  color: #404bbf;
+}
+.contacts {
   font-style: normal;
+}
+.contacts_list__item {
+  color: #434455;
+}
+/* Order section */
+.order {
+  background-color: #2e2f42;
+}
+.order__title {
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+.order__button {
+  background-color: #4d5ae5;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+}
+
+.order__button:hover,
+:focus {
+  background-color: #404bbf;
+  cursor: pointer;
 }
