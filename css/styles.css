@@ -4,7 +4,8 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: #434455;
+  background-color: #ffffff;
 }
 
 ul,
@@ -24,4 +25,15 @@ a {
 .contacts :hover,
 :focus {
   color: #404bbf;
+}
+.nav_list__logo_color {
+  color: #4d5ae5;
+}
+.nav_list__logo {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.16667;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #2e2f42;
 }
