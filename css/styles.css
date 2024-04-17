@@ -38,6 +38,10 @@ a {
   text-transform: uppercase;
   color: #4d5ae5;
 }
-.nav_list__items {
+.nav_list__items_link__list {
   color: #2e2f42;
+}
+
+.contacts_menu {
+  font-style: normal;
 }
