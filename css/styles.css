@@ -148,9 +148,6 @@ a {
   color: #2e2f42;
   margin-bottom: 8px;
 }
-.information_section_list_numbers {
-  width: calc((100% - 72px) / 4);
-}
 
 .visually-hidden {
   position: absolute;
@@ -168,7 +165,9 @@ a {
   gap: 24px;
   margin-right: 24px;
 }
-
+.information_section_list_numbers {
+  flex-basis: calc((100% - 72px) / 4);
+}
 /* Team section */
 .team_menu {
   background-color: #f4f4fd;
