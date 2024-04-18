@@ -106,7 +106,6 @@ a {
   letter-spacing: 0.02em;
   color: #ffffff;
   max-width: 496px;
-  margin-left: 472px;
 }
 .order__button {
   background-color: #4d5ae5;
@@ -144,7 +143,14 @@ a {
   margin-bottom: 8px;
 }
 .visually-hidden {
-  visibility: hidden;
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
 }
 
 .information_section_list {
