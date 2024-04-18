@@ -166,7 +166,7 @@ a {
   margin-right: 24px;
 }
 .information_section_list_numbers {
-  flex-basis: calc((100% - 72px) / 4);
+  width: calc((100% - 3 * 24px) / 4);
 }
 /* Team section */
 .team_menu {
