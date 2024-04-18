@@ -165,9 +165,10 @@ a {
   gap: 24px;
   margin-right: 24px;
 }
-.information_section_list_numbers {
+.information_section_list_numbers:first-child {
   width: calc((100% - 3 * 24px) / 4);
 }
+
 /* Team section */
 .team_menu {
   background-color: #f4f4fd;
