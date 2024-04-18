@@ -21,10 +21,6 @@ a {
   color: #404bbf;
 }
 
-.contacts :hover,
-:focus {
-  color: #404bbf;
-}
 .nav_list__logo_color {
   color: #2e2f42;
 }
@@ -49,6 +45,12 @@ a {
 .contacts_list__item {
   color: #434455;
 }
+
+.contacts :hover,
+:focus {
+  color: #404bbf;
+}
+
 /* Order section */
 .order {
   background-color: #2e2f42;
@@ -74,4 +76,13 @@ a {
 :focus {
   background-color: #404bbf;
   cursor: pointer;
+}
+.information_section__title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.information_section__paragraph {
 }
