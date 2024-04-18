@@ -142,3 +142,16 @@ a {
   letter-spacing: 0.02em;
   color: #434455;
 }
+
+/* Footer */
+.footer_menu {
+  background-color: #2e2f42;
+}
+
+.footer_logo_color {
+  color: #f4f4fd;
+}
+
+.footer_menu__paragraph {
+  color: #f4f4fd;
+}
