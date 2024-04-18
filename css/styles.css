@@ -10,7 +10,6 @@ body {
 
 .img {
   display: block;
-  max-width: 100%;
 }
 
 h1,
@@ -58,6 +57,19 @@ a {
 }
 .contacts_list__item {
   color: #434455;
+}
+
+.header_menu {
+  border-bottom: 1px solid #e7e9fc;
+}
+
+.header_menu_list {
+  display: flex;
+}
+.nav_list {
+  width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px 0 15px;
 }
 
 .contacts :hover,
