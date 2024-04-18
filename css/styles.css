@@ -53,7 +53,7 @@ a {
   color: #4d5ae5;
   margin-right: 76px;
 }
-.nav_list__items_link__list {
+.link {
   padding: 24px 0 24px;
   color: #2e2f42;
 }
@@ -76,7 +76,7 @@ a {
 }
 .container {
   width: 1158px;
-  padding: 0 15px 0 15px;
+  margin: 0 auto;
 }
 .nav_list {
   display: flex;
