@@ -106,6 +106,7 @@ a {
   letter-spacing: 0.02em;
   color: #ffffff;
   max-width: 496px;
+  margin-left: 472px;
 }
 .order__button {
   background-color: #4d5ae5;
@@ -142,8 +143,7 @@ a {
   color: #2e2f42;
   margin-bottom: 8px;
 }
-
-.information_section_hiden {
+.visually-hidden {
   visibility: hidden;
 }
 
