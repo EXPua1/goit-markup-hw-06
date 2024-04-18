@@ -86,3 +86,59 @@ a {
 }
 .information_section__paragraph {
 }
+
+/* Team section */
+.team_menu {
+  background-color: #f4f4fd;
+}
+
+.team_menu_title {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
+}
+
+.team_menu__list {
+  background-color: #ffffff;
+}
+
+.team_menu__list_title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.team_menu__list_job {
+  font-size: 16px;
+}
+
+/* Section 4 */
+
+.portfolio_title {
+  font-size: 36px;
+  line-height: 1.11111;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+  text-transform: capitalize;
+}
+
+.portfolio_list__title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.portfolio_list__paragraph {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
