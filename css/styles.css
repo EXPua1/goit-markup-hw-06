@@ -162,13 +162,9 @@ a {
   margin-right: 0;
 }
 
-.information_section_list_numbers {
+.information_section_list .information_section_list_numbers:first-child {
   width: calc((100% - 72px) / 4);
 }
-
-.information_section__paragraph {
-}
-
 /* Team section */
 .team_menu {
   background-color: #f4f4fd;
