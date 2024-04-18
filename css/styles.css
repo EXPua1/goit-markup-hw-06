@@ -165,7 +165,7 @@ a {
   gap: 24px;
   margin-right: 24px;
 }
-.information_section_list_numbers:first-child {
+.information_section_list {
   width: calc((100% - 3 * 24px) / 4);
 }
 
