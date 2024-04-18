@@ -165,7 +165,7 @@ a {
   gap: 24px;
   margin-right: 24px;
 }
-.information_section_list .information_section_list_numbers:first-child {
+.information_section_list li:first-child {
   width: calc((100% - 72px) / 4);
 }
 /* Team section */
