@@ -123,6 +123,7 @@ a {
   border-radius: 4px;
   cursor: pointer;
   margin-top: 64px;
+  margin-left: 165px;
 }
 
 .order__button:hover,
@@ -130,13 +131,35 @@ a {
   background-color: #404bbf;
   cursor: pointer;
 }
+.information_section {
+  padding: 120px 0 120px;
+}
 .information_section__title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
+
+.information_section_hiden {
+  visibility: hidden;
+}
+
+.information_section_list {
+  display: flex;
+  gap: 24px;
+  margin-right: 24px;
+}
+.information_section_list li :last-child {
+  margin-right: 0;
+}
+
+.information_section_list_numbers {
+  width: calc((100% - 72px) / 4);
+}
+
 .information_section__paragraph {
 }
 
