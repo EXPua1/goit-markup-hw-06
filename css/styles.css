@@ -79,6 +79,7 @@ a {
 
 .header_menu_list {
   display: flex;
+  justify-content: space-between;
 }
 .container {
   width: 1158px;
@@ -113,6 +114,11 @@ a {
   color: #ffffff;
   max-width: 496px;
 }
+.order .order_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 .order__button {
   background-color: #4d5ae5;
   font-family: "Roboto", sans-serif;
@@ -129,7 +135,6 @@ a {
   border-radius: 4px;
   cursor: pointer;
   margin-top: 64px;
-  margin-left: 165px;
 }
 
 .order__button:hover,
@@ -150,14 +155,7 @@ a {
 }
 
 .visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  padding: 0;
-  overflow: hidden;
-  clip: rect(0, 0, 0, 0);
-  border: 0;
+  visibility: hidden;
 }
 
 .information_section_list {
@@ -166,7 +164,7 @@ a {
   margin-right: 24px;
 }
 
-.information_section_list_numbers {
+.information_section_list_numbers:first-child {
   flex-basis: calc((100% - 72px) / 4);
 }
 /* Team section */
