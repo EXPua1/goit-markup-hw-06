@@ -155,7 +155,7 @@ a {
 }
 
 .visually-hidden {
-  visibility: hidden;
+  display: none;
 }
 
 .information_section_list {
