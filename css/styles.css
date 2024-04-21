@@ -237,8 +237,7 @@ a {
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
-}
-.portfolio_info__list {
+  padding: 0;
 }
 
 .portfolio_info__list_container {
@@ -278,6 +277,7 @@ a {
 /* Footer */
 .footer_menu {
   background-color: #2e2f42;
+  padding: 100px 0;
 }
 
 .footer_logo_color {
