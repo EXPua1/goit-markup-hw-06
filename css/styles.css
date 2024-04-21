@@ -161,6 +161,11 @@ a {
 .information_section_list {
   display: flex;
   gap: 24px;
+  font-weight: 400;
+}
+.section {
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 .information_section_list .information_section_list_numbers li:first-child {
   width: calc((100% - 72px) / 4);
