@@ -289,6 +289,7 @@ a {
 
 .footer_menu__paragraph {
   color: #f4f4fd;
+  max-width: 264px;
 }
 .nav_list__logo_footer {
   font-family: "Raleway", sans-serif;
