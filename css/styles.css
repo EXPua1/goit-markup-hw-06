@@ -161,13 +161,9 @@ a {
 .information_section_list {
   display: flex;
   gap: 24px;
-  margin-right: 24px;
 }
-.information_section_list_numbers {
-  display: flex;
-  flex-direction: column;
-}
-.information_section_list_numbers:first-child {
+
+.information_section_list_numbers li:first-child {
   flex-basis: calc((100% - 72px) / 4);
 }
 
