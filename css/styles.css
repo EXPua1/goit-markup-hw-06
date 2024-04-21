@@ -239,7 +239,6 @@ a {
   row-gap: 48px;
 }
 .portfolio_info__list {
-  width: calc((100% - 48px) / 3);
 }
 
 .portfolio_info__list_container {
@@ -257,6 +256,7 @@ a {
   color: #2e2f42;
   text-transform: capitalize;
   margin-bottom: 72px;
+  width: calc((100% - 48px) / 3);
 }
 
 .portfolio_list__title {
@@ -265,6 +265,7 @@ a {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 
 .portfolio_list__paragraph {
