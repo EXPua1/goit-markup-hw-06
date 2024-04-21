@@ -1,0 +1,11 @@
+@media (max-witdh: 1199px) {
+  html {
+    font-size: 8px;
+  }
+}
+
+@media (max-witdh: 991px) {
+  html {
+    font-size: 1px;
+  }
+}
