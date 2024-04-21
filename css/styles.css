@@ -104,7 +104,7 @@ a {
 /* Order section */
 .order {
   background-color: #2e2f42;
-  padding: 188px 0 188px;
+  padding: 188px 0;
 }
 .order__title {
   font-size: 56px;
@@ -164,17 +164,19 @@ a {
   clip: rect(0, 0, 0, 0);
   border: 0;
 }
+.section {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
 
 .information_section_list {
   display: flex;
   gap: 24px;
   font-weight: 400;
+  padding: 0;
 }
-.section {
-  padding-top: 120px;
-  padding-bottom: 120px;
-}
-.information_section_list .information_section_list_numbers li:first-child {
+
+.information_section_list .information_section_list_numbers {
   width: calc((100% - 72px) / 4);
 }
 
