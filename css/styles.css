@@ -157,14 +157,9 @@ a {
 }
 
 .information_section .container .visually-hidden {
+  visibility: hidden;
+  pointer-events: none;
   position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  padding: 0;
-  overflow: hidden;
-  clip: rect(0, 0, 0, 0);
-  border: 0;
 }
 .section {
   padding-top: 120px;
@@ -301,5 +296,18 @@ a {
   color: #4d5ae5;
   margin-right: 76px;
   display: inline-block;
+  .visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
   margin-bottom: 16px;
 }
