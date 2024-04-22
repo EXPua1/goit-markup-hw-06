@@ -50,7 +50,6 @@ a {
 }
 
 .nav_list__logo {
-  position: relative;
   color: #404bbf;
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -71,8 +70,10 @@ a {
   background-color: #404bbf;
   border-radius: 2px;
 }
-
-
+.link {
+  position: relative;
+  color: #404bbf;
+}
 .nav_list__items_link__list {
   padding: 24px 0;
 
@@ -85,8 +86,7 @@ a {
   font-style: normal;
 }
 .contacts_list__item {
-  color: #434455;git remote set-url origin git@github.com:EXPua1/goit-markup-hw-04.git
-
+  color: #434455;
 }
 
 .header_menu {
@@ -95,7 +95,8 @@ a {
   top: 0;
   z-index: 999;
   background: #fff;
-  box-shadow:0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
+  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 .header_menu_list {
@@ -129,7 +130,7 @@ a {
   padding: 188px 0;
 }
 .hero {
-  background-image: url('./images/order/people-office.jpg');
+  background-image: url("./images/order/people-office.jpg");
   /* Додайте інші властивості фону, якщо необхідно */
   /* Наприклад: */
   background-size: cover;
