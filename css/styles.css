@@ -214,7 +214,7 @@ a {
   padding: 0;
 }
 
-.information_section_list__icon {
+.information_section_list_numbers__icon {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -224,6 +224,7 @@ a {
   border: 1px solid #8e8f99;
   margin-bottom: 8px;
 }
+
 .information_section_list .information_section_list_numbers {
   width: calc((100% - 72px) / 4);
 }
