@@ -60,7 +60,16 @@ a {
   color: #4d5ae5;
   margin-right: 76px;
 }
-.nav_list__items li:first-child::after {
+
+.nav_list__items_link__list {
+  padding: 24px 0;
+  color: #2e2f42;
+}
+.nav_list__items li:first-child a {
+  position: relative;
+  color: #404bbf; /* Змінюємо колір тексту */
+}
+.nav_list__items li:first-child ::after {
   content: "";
   width: 100%;
   position: absolute;
@@ -69,15 +78,6 @@ a {
   height: 4px;
   background-color: #404bbf;
   border-radius: 2px;
-}
-.nav_list__items li:first-child {
-  position: relative;
-  color: #404bbf;
-}
-.nav_list__items_link__list {
-  padding: 24px 0;
-
-  color: #2e2f42;
 }
 .nav_list__items_link__list:focus {
   color: #404bbf;
