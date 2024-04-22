@@ -70,7 +70,7 @@ a {
   background-color: #404bbf;
   border-radius: 2px;
 }
-.link {
+.nav_list__items li:first-child {
   position: relative;
   color: #404bbf;
 }
