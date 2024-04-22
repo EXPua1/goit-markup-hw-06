@@ -64,6 +64,7 @@ a {
 .nav_list__items_link__list {
   padding: 24px 0;
   color: #2e2f42;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .nav_list__items li:first-child a {
   position: relative;
@@ -87,6 +88,7 @@ a {
 }
 .contacts_list__item {
   color: #434455;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header_menu {
