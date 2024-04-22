@@ -62,6 +62,7 @@ a {
   margin-right: 76px;
 }
 .nav_list__logo::after{
+  content: "";
   width: 100%;
   position: absolute;
   left: 0;
