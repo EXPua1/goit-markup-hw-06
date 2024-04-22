@@ -170,6 +170,13 @@ a {
   clip: rect(0, 0, 0, 0);
   border: 0;
 }
+.visually-hidden-title {
+  @include visually-hidden;
+}
+
+.skip-navigation {
+  @include visually-hidden-focusable;
+}
 .information_section_list {
   display: flex;
   gap: 24px;
