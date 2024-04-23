@@ -336,7 +336,6 @@ a {
 .portfolio_info__list:hover {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-  transform: translateY(0%);
 }
 
 .portfolio_info .portfolio_info__list {
@@ -405,6 +404,56 @@ a {
 .footer_menu {
   background-color: #2e2f42;
   padding: 100px 0;
+  align-content: baseline;
+}
+.footer_container {
+  display: flex;
+  align-items: baseline;
+}
+
+.footer_container__logo {
+  margin-right: 120px;
+}
+.footer_social_list_item__link:hover {
+}
+.footer_social {
+}
+
+.footer_social_p {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  margin-bottom: 16px;
+}
+.footer_social_list {
+  display: flex;
+  gap: 16px;
+  background-color: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.footer_social_list_item {
+  width: 40px;
+  height: 40px;
+}
+
+.footer_social_list_item__link {
+  width: 100%;
+  height: 100%;
+  background-color: #4d5ae5;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer_social_list_item__link:hover,
+.footer_social_list_item__link:focus {
+  background-color: #31d0aa;
+}
+
+.footer_social_list_item__link {
+  fill: #f4f4fd;
 }
 
 .footer_logo_color {
