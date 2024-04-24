@@ -347,7 +347,7 @@ a {
   position: relative;
   overflow: hidden;
 }
-.portfolio_info__list_item:hover .portfolio_info__list_item_descr {
+.portfolio_info__list:hover .portfolio_info__list_item_descr {
   transform: translateY(0%);
 }
 
@@ -453,7 +453,7 @@ a {
   background-color: #31d0aa;
 }
 
-.footer_social_list_item__link {
+.footer_social_list_item__link_icon {
   fill: #f4f4fd;
 }
 
