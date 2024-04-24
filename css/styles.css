@@ -626,8 +626,10 @@ a {
   outline: transparent;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.modal_form_name_container_inpt:focus .modal_button_icon_form {
-  color: #4d5ae5;
+.modal_form_name_container_inpt:focus
+  + .modal_form_name_container
+  .modal_button_icon_form {
+  fill: #4d5ae5;
 }
 .modal_button_icon_form {
   position: absolute;
