@@ -642,3 +642,7 @@ a {
 .modal_form_name_container_inpt:focus .modal_button_icon_form {
   fill: #4d5ae5;
 }
+
+.modal_form_name_container_inpt:focus {
+  border-color: #4d5ae5;
+}
