@@ -699,3 +699,12 @@ a {
   justify-content: center;
   fill: transparent;
 }
+
+.modal_check_box
+  input:checked
+  + .modal_check_box_user_privacy
+  label
+  .modal_check_box_user_privacy_span {
+  background-color: #404bbf;
+  border: none;
+}
