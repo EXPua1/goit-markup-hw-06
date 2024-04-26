@@ -835,6 +835,10 @@ a {
   .footer_container {
     flex-direction: column;
   }
+  .contacts_list {
+    flex-direction: column;
+    gap: 0;
+  }
 }
 
 @media (min-width: 1157px) {
