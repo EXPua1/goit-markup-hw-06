@@ -114,7 +114,7 @@ a {
 }
 .container {
   max-width: 1158px;
-  width: 100%;
+
   margin: 0 auto;
   padding: 0 15px;
 }
@@ -747,35 +747,55 @@ a {
 }
 
 @media (min-width: 320px) and (max-width: 767px) {
-  .nav_list__logo {
-    margin-bottom: 17.5px;
-    margin-top: 17.5px;
+  .header_menu {
+    max-width: 767px;
   }
-  .contacts {
-    display: flex;
+  .header_menu_list {
+    justify-content: space-around;
   }
-  .burger_icon {
-    display: block;
-    align-items: baseline;
+
+  .container {
+    max-width: 320px;
+    padding: 0 16px;
   }
+  .nav_list__items,
   .contacts_list {
     display: none;
   }
-  .nav_list__items {
-    display: none;
-  }
-  .information_section_list_numbers__icon {
-    display: none;
-  }
-  .information_section__paragraph {
-    display: flex;
+  .nav_list__logo {
+    margin-top: 16px;
+    margin-bottom: 16px;
   }
 
+  .burger_icon {
+    display: block;
+  }
+
+  .order {
+    max-width: 320px;
+    padding: 0;
+  }
+
+  .order__title {
+    margin-top: 72px;
+    font-weight: 700;
+    max-width: 216px;
+    font-size: 36px;
+  }
+  .order__button {
+    margin-top: 72px;
+    margin-bottom: 72px;
+  }
+  .information_section_list .information_section_list_numbers {
+    width: 100%;
+  }
   .information_section_list {
     flex-direction: column;
     align-items: center;
   }
-
+  .information_section_list_numbers__icon {
+    display: none;
+  }
   .information_section__title {
     text-align: center;
     font-family: var(--font-family);
@@ -784,6 +804,118 @@ a {
     line-height: 111%;
     letter-spacing: 0.02em;
     text-align: center;
+    color: var(--navy-blue);
+  }
+  .information_section__paragraph {
+    text-align: start;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+    color: var(--slate);
+  }
+
+  .team_menu__main {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .portfolio_info {
+    flex-direction: column;
+    gap: 72px;
+  }
+  .portfolio_info .portfolio_info__list {
+    width: 100%;
+  }
+
+  .footer_container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .footer_subscribe {
+    margin: 0;
+  }
+  .footer_container__logo {
+    margin: 0;
+  }
+  .footer_subscribe_form {
+    flex-direction: column;
+    align-items: center;
+  }
+  .footer_subscribe_form_label_input {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 200%;
+    letter-spacing: 0.04em;
+    color: var(--white);
+    opacity: 0.6;
+    width: 288px;
+  }
+  .nav_list__logo_footer {
+    margin-right: 0;
+    justify-content: center;
+    display: flex;
+  }
+
+  .footer_subscribe_title {
+    display: flex;
+    margin-top: 72px;
+    justify-content: center;
+  }
+  .footer_subscribe_form {
+    max-width: 165px;
+  }
+  .footer_social_p {
+    margin-top: 72px;
+    text-align: center;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1157px) {
+  .container {
+    max-width: 768px;
+    padding: 0 16px;
+  }
+  .order {
+    padding: 0;
+  }
+  .order__title {
+    margin-top: 112px;
+  }
+  .order__button {
+    margin-bottom: 112px;
+  }
+  .header_menu_list {
+    justify-content: space-around;
+  }
+
+  .contacts_list {
+    flex-direction: column;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 117%;
+    letter-spacing: 0.04em;
+    color: var(--slate);
+    gap: 12px;
+    margin-right: 16px;
+  }
+  .information_section_list_numbers__icon {
+    display: none;
+  }
+
+  .information_section_list {
+    flex-wrap: wrap;
+  }
+
+  .information_section__title {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 111%;
+    letter-spacing: 0.02em;
     color: var(--navy-blue);
   }
   .information_section__paragraph {
@@ -796,53 +928,40 @@ a {
   }
 
   .information_section_list .information_section_list_numbers {
-    width: calc((100% - 24px) / 1);
+    width: calc((100% - 48px) / 2);
   }
-  .footer_container__logo {
-    align-content: center;
-    margin: 0 auto;
-  }
+
   .team_menu__main {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .team_menu__list {
+  }
+
+  .portfolio_info {
+    flex-direction: row;
     flex-wrap: wrap;
   }
   .portfolio_info .portfolio_info__list {
-    column-gap: 0;
-  }
-  .portfolio_info {
-    display: flex;
-    flex-wrap: wrap;
+    width: calc((100% - 24px) / 2);
   }
   .footer_container {
-    flex-direction: column;
-    align-items: center;
+    flex-wrap: wrap;
+
+    padding-left: 108px;
   }
   .footer_subscribe {
-    margin: 0 auto;
-  }
-  .footer_subscribe_form {
-    flex-direction: column;
-  }
-  .footer_social_p {
+    margin-left: 0;
     margin-top: 72px;
-    text-align: center;
   }
-  .footer_subscribe_title {
-    text-align: center;
-  }
-}
-
-@media (min-width: 768px) and (max-width: 1157px) {
-  .footer_container {
-    flex-direction: column;
-  }
-  .contacts_list {
-    flex-direction: column;
-    gap: 0;
+  .footer_container__logo {
+    margin-right: 24px;
   }
 }
 
-@media (min-width: 1157px) {
-  .footer_container {
-    flex-direction: row;
+@media (min-width: 1158) {
+  .container {
+    max-width: 1158px;
+    padding: 0 15px;
   }
 }
