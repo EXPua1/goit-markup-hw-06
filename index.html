@@ -766,8 +766,8 @@
 
     <div class="mobile">
         <div class="mobile_menu">
-            <button class="modal_button" type="button">
-                <svg class="modal_button_icon" width="8" height="8" viewBox="0 0 8 8"
+            <button class="mobile_modal_button" type="button">
+                <svg class="mobile_modal_button_icon" width="8" height="8" viewBox="0 0 8 8"
                     xmlns="http://www.w3.org/2000/svg">
                     <use href="./images/close.svg#icon-close"></use>
                 </svg>
@@ -847,6 +847,35 @@
             </div>
         </div>
     </div>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            // Находим бургер и блок mobile_menu
+            const burger = document.querySelector('.burger');
+            const mobileMenu = document.querySelector('.mobile');
+
+            // Добавляем обработчик события клика на бургер
+            burger.addEventListener('click', function () {
+                // Переключаем класс is-open на блоке mobile_menu
+                mobileMenu.classList.toggle('is-opn');
+            });
+        });
+    </script>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            // Находим кнопку с иконкой закрытия
+            const closeButton = document.querySelector('.mobile_modal_button');
+
+            // Добавляем обработчик события клика на кнопку
+            closeButton.addEventListener('click', function () {
+                // Здесь вы можете выполнить действия по закрытию модального окна
+                // Например, скрыть модальное окно или удалить класс is-open и т.д.
+                // Например, если ваше модальное окно имеет класс mobile, то можно сделать так:
+                const modal_button = document.querySelector('.mobile');
+                modal_button.classList.remove('is-opn');
+            });
+        });
+    </script>
 
 </body>
 
