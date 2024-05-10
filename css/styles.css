@@ -853,9 +853,8 @@ a {
 .mobile_employee_info_icon {
   display: flex;
   justify-content: center;
-  gap: 24px;
+  gap: 40px;
   margin-top: 8px;
-  justify-content: space-between;
 }
 .mobile_employee_info_icon_list {
   width: 40px;
