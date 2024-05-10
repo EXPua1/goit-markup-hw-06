@@ -838,7 +838,7 @@ a {
   letter-spacing: 0.02em;
 }
 
-.mobile_menu_address_list:first-child {
+.mobile_menu_address_list li:first-child a {
   color: #4d5ae5;
 }
 
