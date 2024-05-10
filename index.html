@@ -62,6 +62,7 @@
     </header>
     <main>
         <section class="order container_order">
+
             <div class="container order_container">
 
                 <h1 class="order__title">Effective Solutions for Your Business</h1>
@@ -764,8 +765,8 @@
         </div>
     </div>
 
-    <div class="mobile">
-        <div class="mobile_menu">
+    <div class="mobile ">
+        <div class="mob_container mobile_menu ">
             <button class="mobile_modal_button" type="button">
                 <svg class="mobile_modal_button_icon" width="8" height="8" viewBox="0 0 8 8"
                     xmlns="http://www.w3.org/2000/svg">
@@ -773,7 +774,7 @@
                 </svg>
             </button>
 
-            <ul class="mobile_li">
+            <nav class="mobile_li">
                 <li>
                     <a class="link" href="">Studio</a>
                 </li>
@@ -782,23 +783,20 @@
                 </li>
 
                 <li><a class="link" href="">Contacts</a></li>
+            </nav>
+
+
+
+            <ul class="mobile_menu_address_list">
+                <li>
+                    <a class="contacts_list__item" href="tel:+110001111111">+11 (000) 111-11-11</a>
+                </li>
+                <li>
+                    <a class="contacts_list__item" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                </li>
             </ul>
 
 
-            <div class="mobile_menu_address">
-                <ul>
-                    <li>
-                        <a class="contacts_list__item" href="mailto:info@devstudio.com">info@devstudio.com</a>
-                    </li>
-
-
-                    <li>
-
-                        <a class="contacts_list__item" href="tel:+110001111111">+11 (000) 111-11-11</a>
-                    </li>
-                </ul>
-
-            </div>
             <ul class="mobile_employee_info_icon">
                 <li class="mobile_employee_info_icon_list">
                     <a class="mobile_employee_info_icon_list_link" href="">
@@ -868,9 +866,7 @@
 
             // Добавляем обработчик события клика на кнопку
             closeButton.addEventListener('click', function () {
-                // Здесь вы можете выполнить действия по закрытию модального окна
-                // Например, скрыть модальное окно или удалить класс is-open и т.д.
-                // Например, если ваше модальное окно имеет класс mobile, то можно сделать так:
+
                 const modal_button = document.querySelector('.mobile');
                 modal_button.classList.remove('is-opn');
             });

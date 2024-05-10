@@ -753,20 +753,24 @@ a {
 }
 
 .mobile {
-  max-width: 320px;
-  max-width: 640px;
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(46, 47, 66, 0.4);
+  background-color: #fff;
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
     visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
   visibility: hidden;
   opacity: 0;
 }
-
+.mob_container {
+  padding: 72px 24px 40px 16px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
 .mobile_modal_button {
   position: absolute;
   top: 24px;
@@ -805,20 +809,39 @@ a {
 }
 .mobile_menu {
   z-index: 9999;
-  width: 100%; /* Занимает всю доступную ширину */
+
   height: 100%; /* Занимает всю доступную высоту */
-  min-width: 320px;
-  min-height: 640px;
-  background: #fcfcfc;
-  padding: 72px 24px 40px 16px;
+  max-width: 320px;
+
+  position: relative;
   overflow: hidden;
 }
+
 .mobile_li {
   display: flex;
   flex-direction: column;
   gap: 40px;
-  margin-bottom: 168px;
+  margin-bottom: auto;
+  list-style-type: none;
 }
+.mobile_li li:first-child {
+  color: #404bbf;
+}
+.mobile_menu_address_list {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+.mobile_menu_address_list:first-child {
+  color: #4d5ae5;
+}
+
 .link {
   font-family: var(--font-family);
   font-weight: 700;
@@ -850,6 +873,9 @@ a {
 }
 
 @media (min-width: 320px) and (max-width: 767px) {
+  .mobile {
+    display: block;
+  }
   .header_menu {
     max-width: 767px;
   }
@@ -990,6 +1016,9 @@ a {
   }
 }
 @media (min-width: 768px) and (max-width: 1157px) {
+  .mobile {
+    display: none;
+  }
   .container {
     max-width: 768px;
     padding: 0 16px;
@@ -1080,7 +1109,10 @@ a {
   }
 }
 
-@media (min-width: 1158) {
+@media (min-width: 1158px) {
+  .mobile {
+    display: none;
+  }
   .container {
     max-width: 1158px;
     padding: 0 15px;
